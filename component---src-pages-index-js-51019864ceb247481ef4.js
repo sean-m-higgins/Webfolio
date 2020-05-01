@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{RXBc:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),l=n.n(a),c=n("TJpk"),r=n("Bl7J"),u=n("vrFN");t.default=function(){return l.a.createElement("div",null,l.a.createElement(c.Helmet,null,l.a.createElement("meta",{charSet:"utf-8"}),l.a.createElement("title",null,"SMH | Sean Higgins")),l.a.createElement(r.a,null,l.a.createElement(u.a,{title:"Home"})))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-51019864ceb247481ef4.js.map

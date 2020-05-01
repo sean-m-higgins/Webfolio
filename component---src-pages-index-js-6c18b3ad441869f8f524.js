@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{RXBc:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),l=a.n(n),c=a("TJpk"),r=a("Bl7J"),i=a("vrFN");a("ATke");t.default=function(){return l.a.createElement("div",{className:"App"},l.a.createElement(c.Helmet,null,l.a.createElement("meta",{charSet:"utf-8"}),l.a.createElement("title",null,"SMH | Sean Higgins")),l.a.createElement(r.a,null,l.a.createElement(i.a,{title:"Home"})))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-6c18b3ad441869f8f524.js.map
