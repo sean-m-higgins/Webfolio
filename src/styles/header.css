@@ -1,0 +1,18 @@
+.logoLink {
+  position: fixed;
+  right: 5%;
+  top: 5%;
+  font-size: 3.3rem;
+  font-weight: 100;
+  color: #3d005b;
+  text-decoration: none;
+  font-size: 70px;
+}
+
+.navBar {
+  padding-bottom: 7rem;
+  position: fixed;
+  width: 100%;
+  background-color: #eae0cc;
+  z-index: 1;
+}
