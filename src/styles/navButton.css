@@ -1,6 +1,6 @@
 button {
-  left: 5%;
-  top: 5%;
+  left: 2rem;
+  top: 2rem;
   position: absolute;
   background-color: Transparent;
   background-repeat:no-repeat;
@@ -13,7 +13,6 @@ button {
 
 .openNav {
   position: fixed;
-  margin-top: -15px;
   border: none;
   cursor: pointer;
   outline: none;
@@ -25,10 +24,14 @@ button {
 
 @media (max-width: 500px) {
   li {
-    font-size: 30px;
+
   }
 
   .openNav {
-    font-size: 90px;
+
+  }
+
+  button {
+    
   }
 }

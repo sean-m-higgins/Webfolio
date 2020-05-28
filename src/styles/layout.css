@@ -10,7 +10,7 @@
   bottom: 0px;
   position: fixed;
   background-color: #eae0cc;
-  padding-top: 25px;
+  padding-top: 10px;
 }
 
 .listItem {
@@ -20,7 +20,7 @@
 }
 
 footer {
-
+  padding-top: 40px;
 }
 
 

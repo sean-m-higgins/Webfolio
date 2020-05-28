@@ -2,7 +2,7 @@ import React from "react"
 import { Helmet } from 'react-helmet'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Image from "../components/image"
+import EagleImages from "../components/eagleImages"
 import Title from "../components/title"
 
 const Eagle = () => (
@@ -17,7 +17,7 @@ const Eagle = () => (
     
     
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+      <EagleImages />
     </div>
   </Layout>
 )

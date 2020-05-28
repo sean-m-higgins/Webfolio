@@ -27,10 +27,10 @@ const Layout = ({ children }) => {
         <footer>
           <div class="outerBox">
             <ul>
-              <li class="listItem"><a href="https://github.com/sean-m-higgins"><FontAwesomeIcon icon={ faGithub } className="inner-about-contact" /></a></li>
-              <li class="listItem"><a href="https://www.linkedin.com/in/sean-m-higgins20/"><FontAwesomeIcon icon={ faLinkedin } className="inner-about-contact" /></a></li>
-              <li class="listItem"><a href="mailto:shiggins@luc.edu?subject=Person Website Inquiry"><FontAwesomeIcon icon={ faEnvelope } className="inner-about-contact" /></a></li>
-              <li class="listItem"><a href="https://www.instagram.com/hazy.lens/"><FontAwesomeIcon icon={ faInstagram } className="inner-about-contact" /></a></li>
+              <li class="listItem"><a href="https://github.com/sean-m-higgins"> <FontAwesomeIcon icon={ faGithub } className="inner-about-contact" /></a></li>
+              <li class="listItem"><a href="https://www.linkedin.com/in/sean-m-higgins20/"> <FontAwesomeIcon icon={ faLinkedin } className="inner-about-contact" /></a></li>
+              <li class="listItem"><a href="mailto:shiggins@luc.edu?subject=Person Website Inquiry"> <FontAwesomeIcon icon={ faEnvelope } className="inner-about-contact" /></a></li>
+              <li class="listItem"><a href="https://www.instagram.com/hazy.lens/"> <FontAwesomeIcon icon={ faInstagram } className="inner-about-contact" /></a></li>
             </ul>
           </div>
         </footer>

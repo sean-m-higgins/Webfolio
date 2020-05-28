@@ -1,7 +1,7 @@
 .logoLink {
   position: fixed;
-  right: 5%;
-  top: 5%;
+  right: 2rem;
+  top: 2rem;
   font-size: 3.3rem;
   font-weight: 100;
   color: #3d005b;
@@ -10,9 +10,14 @@
 }
 
 .navBar {
-  padding-bottom: 7rem;
+  padding-bottom: 5rem;
   position: fixed;
   width: 100%;
   background-color: #eae0cc;
   z-index: 1;
+}
+
+@media (max-width: 500px) {
+
+
 }

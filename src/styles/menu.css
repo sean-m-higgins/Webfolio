@@ -1,7 +1,7 @@
 #flyoutMenu {
   width: 100%;
   height: 100%;
-  background-color: rgb(240,234,224,.8);
+  background-color: rgb(240,234,224,.9);
   position: fixed;
   top: 0;
   left: 0;
@@ -76,7 +76,6 @@ a:hover:after {
 }
 
 .closeNav {
-  margin-top: -15px;
   border: none;
   cursor: pointer;
   outline: none;
@@ -91,6 +90,6 @@ a:hover:after {
   }
 
   .closeNav {
-    font-size: 90px;
+
   }
 }
