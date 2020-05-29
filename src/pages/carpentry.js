@@ -20,21 +20,24 @@ const Carpentry = ( ) => {
       </Helmet>
       <Title titleText="Woodworking Projects" subtitleText="A piece of furniture each year of university"/>
 
-
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+      Coffee:
+      <div style={{ marginBottom: `1.45rem` }}>
         <CoffeeImages />
       </div>
 
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+      Desk:
+      <div style={{marginBottom: `1.45rem` }}>
         <DeskImages />
       </div>
 
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <SideImages />
+      Shoe:
+      <div style={{marginBottom: `1.45rem` }}>
+        <ShoeImages />
       </div>
 
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <ShoeImages />
+      Side:
+      <div style={{marginBottom: `1.45rem` }}>
+        <SideImages />
       </div>
     </Layout> 
   );

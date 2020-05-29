@@ -1,0 +1,31 @@
+.eagle-image-box, .desk-image-box, .shoe-image-box, .coffee-image-box, .side-image-box {
+    justify-content: center;
+}
+
+.eagle-image, .desk-image, .coffee-image, .shoe-image, .side-image {
+    width: 300px;
+    padding-right: 50px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#test {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.flex-container {
+    /* We first create a flex layout context */
+    display: flex;
+  
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    flex-flow: row wrap;
+  
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+  }

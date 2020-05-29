@@ -1,0 +1,26 @@
+.outerBox {
+  margin: auto;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  background-color: #eae0cc;
+  padding-top: 10px;
+  height: 80px;
+}
+
+.inner-about-contact {
+  color: #3d005b;
+}
+
+.listItem {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 40px;
+}
+
+@media (max-width: 500px) {
+
+
+}

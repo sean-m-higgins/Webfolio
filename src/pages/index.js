@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../styles/index.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const IndexPage = () => (
   <Layout>

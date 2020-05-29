@@ -7,35 +7,33 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Header from "./header"
+import Footer from "./footer"
+// import SvgsL from "./svgsl"
+// import SvgsR from "./svgsr"
 import "../styles/layout.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div className="container-fluid px-0">
+      
       <Header />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          <div class="outerBox">
-            <ul>
-              <li class="listItem"><a href="https://github.com/sean-m-higgins"> <FontAwesomeIcon icon={ faGithub } className="inner-about-contact" /></a></li>
-              <li class="listItem"><a href="https://www.linkedin.com/in/sean-m-higgins20/"> <FontAwesomeIcon icon={ faLinkedin } className="inner-about-contact" /></a></li>
-              <li class="listItem"><a href="mailto:shiggins@luc.edu?subject=Person Website Inquiry"> <FontAwesomeIcon icon={ faEnvelope } className="inner-about-contact" /></a></li>
-              <li class="listItem"><a href="https://www.instagram.com/hazy.lens/"> <FontAwesomeIcon icon={ faInstagram } className="inner-about-contact" /></a></li>
-            </ul>
-          </div>
-        </footer>
+      <hr id="header-line"></hr>
+
+      <div className="row no-gutters">
+        <div className="col-2 left-box">
+          {/* <SvgsL/> */}
+        </div>
+        <div className="col-8">
+          <main className="main-box">{children}</main>
+        </div>
+        <div className="col-2 right-box">
+          {/* <SvgsR/> */}
+        </div>
       </div>
-    </>
+      
+      <Footer />
+      
+    </div>
   )
 }
 

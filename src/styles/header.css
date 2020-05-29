@@ -1,3 +1,14 @@
+.navBar {
+  padding-bottom: 5rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #eae0cc;
+  height: 100px;
+  z-index: 1000;
+}
+
 .logoLink {
   position: fixed;
   right: 2rem;
@@ -9,12 +20,15 @@
   font-size: 70px;
 }
 
-.navBar {
-  padding-bottom: 5rem;
+.logoLink:hover {
   position: fixed;
-  width: 100%;
-  background-color: #eae0cc;
-  z-index: 1;
+  right: 2rem;
+  top: 2rem;
+  font-size: 3.3rem;
+  font-weight: 100;
+  color: #3d005b;
+  text-decoration: none;
+  font-size: 70px;
 }
 
 @media (max-width: 500px) {

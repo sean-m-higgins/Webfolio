@@ -37,13 +37,15 @@ export default function ShoeImages() {
         }
     `)
     return (
-      <div>
-        <Img fluid={data.image1.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image2.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image3.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image4.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image5.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image6.childImageSharp.fluid} alt="Sean Higgins"/>
+      <div className="container-fluid shoe-image-box">
+            <ul class="flex-container">
+              <li><Img fluid={data.image1.childImageSharp.fluid} alt="Sean Higgins" className="shoe-image"/></li>
+              <li><Img fluid={data.image2.childImageSharp.fluid} alt="Sean Higgins" className="shoe-image"/></li>
+              <li><Img fluid={data.image3.childImageSharp.fluid} alt="Sean Higgins" className="shoe-image"/></li>
+              <li><Img fluid={data.image4.childImageSharp.fluid} alt="Sean Higgins" className="shoe-image"/></li>
+              <li><Img fluid={data.image5.childImageSharp.fluid} alt="Sean Higgins" className="shoe-image"/></li>
+              <li><Img fluid={data.image6.childImageSharp.fluid} alt="Sean Higgins" className="shoe-image"/></li>
+            </ul>
       </div>
     )
   }

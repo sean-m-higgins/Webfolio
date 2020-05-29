@@ -31,11 +31,13 @@ export default function DeskImages() {
         }
     `)
     return (
-      <div>
-        <Img fluid={data.image1.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image2.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image3.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image4.childImageSharp.fluid} alt="Sean Higgins"/>
+      <div className="container-fluid desk-image-box">
+            <ul class="flex-container">
+              <li><Img fluid={data.image1.childImageSharp.fluid} alt="Sean Higgins" className="desk-image"/></li>
+              <li><Img fluid={data.image2.childImageSharp.fluid} alt="Sean Higgins" className="desk-image"/></li>
+              <li><Img fluid={data.image3.childImageSharp.fluid} alt="Sean Higgins" className="desk-image"/></li>
+              <li><Img fluid={data.image4.childImageSharp.fluid} alt="Sean Higgins" className="desk-image"/></li>
+            </ul>
       </div>
     )
   }

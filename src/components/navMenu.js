@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from 'gatsby'
-import '../styles/menu.css'
+import '../styles/nav.css'
 
 
 class NavigationMenu extends Component {
@@ -16,11 +16,10 @@ class NavigationMenu extends Component {
         <button className="closeNav" onMouseDown={this.props.handleMouseDown}>-</button>
         <div className="box">
           <ul>
-            <li className="nav-link"><Link className="nav-link" to="/">HOME</Link></li>
-            <li className="nav-link"><Link className="nav-link" to="/about">ABOUT ME</Link></li>
-            <li className="nav-link"><Link className="nav-link" to="/portfolio">PORTFOLIO</Link></li>
-            <li className="nav-link"><Link className="nav-link" to="/skills">SKILLS</Link></li>
-            <Link to="/links"></Link>
+            <li><Link className="nav-link" to="/">HOME</Link></li>
+            <li><Link className="nav-link" to="/about">ABOUT ME</Link></li>
+            <li><Link className="nav-link" to="/portfolio">PORTFOLIO</Link></li>
+            <li><Link className="nav-link" to="/skills">SKILLS</Link></li>
           </ul>
         </div>
       </div>

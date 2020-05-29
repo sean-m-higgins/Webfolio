@@ -1,28 +1,17 @@
-.inner-about-contact {
-  color: #3d005b;
-}
-
-.outerBox {
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  left: 0px;
-  bottom: 0px;
-  position: fixed;
+.main-box, .left-box, .right-box {
+  z-index: 2;
   background-color: #eae0cc;
-  padding-top: 10px;
 }
 
-.listItem {
-  display: inline-block;
-  padding-right: 10px;
-
+#header-line {
+  top: 0;
+  height: 2px;
+  color: black;
 }
 
 footer {
   padding-top: 40px;
 }
-
 
 html {
   font-family: sans-serif;

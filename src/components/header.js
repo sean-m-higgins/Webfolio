@@ -28,13 +28,17 @@ class Header extends Component {
 
   render() {
   return (
-    <div className="navBar">
-      <NavigationMenu handleMouseDown={this.handleMouseDown} menuVisibility={this.state.visible} />
-      <Link className="logoLink" to="/">
-        <h1>SH</h1>
-      </Link>
-      <NavigationButton handleMouseDown={this.handleMouseDown} />
-      <div id="theMenu"></div>
+    <div className="row navBar">
+      <div className="col-8">
+        <NavigationMenu handleMouseDown={this.handleMouseDown} menuVisibility={this.state.visible} />
+        <NavigationButton handleMouseDown={this.handleMouseDown} />
+        <div id="theMenu"></div>
+      </div>
+      <div className="col-8">
+        <Link className="logoLink" to="/">
+          <h1>SH</h1>
+        </Link>
+      </div>
     </div>
   );
 }

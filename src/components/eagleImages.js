@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import "../styles/images.css"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -94,32 +95,34 @@ export default function EagleImages() {
         }
     `)
     return (
-      <div>
-        <Img fluid={data.image1.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image2.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image3.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image4.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image5.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image6.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image7.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image8.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image9.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image10.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image11.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image12.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image13.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image14.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image15.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image16.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image17.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image18.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image19.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image20.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image21.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image22.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image23.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image24.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image25.childImageSharp.fluid} alt="Sean Higgins"/>
+      <div className="container-fluid eagle-image-box">
+            <ul class="flex-container">
+                <li><Img fluid={data.image1.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image2.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image3.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image4.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image5.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image6.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image7.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image8.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image9.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image10.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image11.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image12.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image13.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image14.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image15.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image16.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image17.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image18.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image19.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image20.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image21.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image22.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image23.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image24.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+                <li><Img fluid={data.image25.childImageSharp.fluid} alt="Sean Higgins" className="eagle-image"/></li>
+            </ul>
       </div>
     )
   }

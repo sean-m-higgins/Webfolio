@@ -49,17 +49,19 @@ export default function CoffeeImages() {
         }
     `)
     return (
-      <div>
-        <Img fluid={data.image1.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image2.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image3.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image4.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image5.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image6.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image7.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image8.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image9.childImageSharp.fluid} alt="Sean Higgins"/>
-        <Img fluid={data.image10.childImageSharp.fluid} alt="Sean Higgins"/>
+      <div className="container-fluid coffee-image-box">
+            <ul class="flex-container">
+              <li><Img fluid={data.image1.childImageSharp.fluid} alt="Sean Higgins" className="coffee-image"/></li>
+              <li><Img fluid={data.image2.childImageSharp.fluid} alt="Sean Higgins" className="coffee-image"/></li>
+              <li><Img fluid={data.image3.childImageSharp.fluid} alt="Sean Higgins" className="coffee-image"/></li>
+              <li><Img fluid={data.image4.childImageSharp.fluid} alt="Sean Higgins" className="coffee-image"/></li>
+              <li><Img fluid={data.image5.childImageSharp.fluid} alt="Sean Higgins" className="coffee-image"/></li>
+              <li><Img fluid={data.image6.childImageSharp.fluid} alt="Sean Higgins" className="coffee-image"/></li>
+              <li><Img fluid={data.image7.childImageSharp.fluid} alt="Sean Higgins" className="coffee-image"/></li>
+              <li><Img fluid={data.image8.childImageSharp.fluid} alt="Sean Higgins" className="coffee-image"/></li>
+              <li><Img fluid={data.image9.childImageSharp.fluid} alt="Sean Higgins" className="coffee-image"/></li>
+              <li><Img fluid={data.image10.childImageSharp.fluid} alt="Sean Higgins" className="coffee-image"/></li>
+            </ul>
       </div>
     )
   }

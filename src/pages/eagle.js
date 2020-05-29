@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import EagleImages from "../components/eagleImages"
 import Title from "../components/title"
+import "../styles/eagle.css"
 
 const Eagle = () => (
   <Layout>
@@ -15,8 +16,8 @@ const Eagle = () => (
     </Helmet>
     <Title titleText="Eagle Scout Project" subtitleText="Portable wheelchair ramp built for Ride on St. Louis"/>
     
-    
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+
+    <div style={{ marginBottom: `1.45rem` }}>
       <EagleImages />
     </div>
   </Layout>
