@@ -9,6 +9,12 @@
     justify-content: center;
 }
 
+.rostl-image {
+    width: 150px;
+    display: inline-block;
+    justify-content: center;
+}
+
 #test {
     padding-right: 50px;
     padding-left: 50px;
